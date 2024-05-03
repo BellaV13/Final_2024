@@ -59,6 +59,16 @@ colPerc(tableMale)
 
 The table shows that there was x2 time difference with those who received the vaccine and still got covid-19. 70% of the ones who took the placebo did not get the virus,compared to the 30$ who got the vaccine. There was no noticeable distinction in those who got the vaccine and were okay. Its effective on males in this group. 
 
+### Inferential Results
+
+```{r}
+chisq.test(tableMale)
+chisqtestGC(tableMale)
+maleFisher <- fisher.test(tableMale)
+maleFisher
+```
+
+The p-value for males is 0.0000000000001098. The p-value is small which is why I can not reject the null hypothesis. the vaccine is not effective in preventing Covid-19 among the males. Based of the Fisher's Exact Test the p-value is 0.00000000000004631 showing a difference in getting covid-19 and being a male. If you're a male, the chances of getting covid-19 are the same if you take the placebo or get the vaccine. 
 
 
 ## Females
