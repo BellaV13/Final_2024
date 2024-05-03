@@ -166,7 +166,7 @@ drugFisher <- fisher.test(tableDrug)
 drugFisher
 ```
 
-
+The Chi-squared p-value is 0.000000002842 is small. so the vaccine is not effective in preventing covid-19 from spreading among other people. With the Fisher's exact test the p-value is 0.000000000232. Meaning I fail to reject the null hypothesis. With all the tests ran is shows that the vaccine does not prevent covid-19. 
 
 
 
