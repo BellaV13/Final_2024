@@ -92,6 +92,18 @@ colPerc(tableFemale)
 
 The table shows that there is a 20% difference in the vaccine rates with those who receive the coivd-19 vaccine. And the females who received the vaccine was 40% and 60% for the placebo. there is no difference with those received he vaccine. 
 
+### Inferential Results
+
+```{r}
+chisq.test(tableFemale)
+chisqtestGC(tableFemale)
+femaleFisher <- fisher.test(tableFemale)
+femaleFisher
+```
+
+The Chi-squared p-value is 0.002732 and the p-value is small, meaning the vaccine is not effective in preventing covid-19 in the females. Based on the Fisher"s Exact test the p-value is 0.0002162. I fail to reject the null hypothesis, due to the p-value being too small. 
+
+
 ## LGBTQ
 
 
