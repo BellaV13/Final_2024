@@ -34,6 +34,9 @@ $H_0$ : There are NO statistically significant difference in the data, meaning t
 
 $H_A$ : There are statistically significant difference in the data, meaning the vaccine and placebo are NOT equally as effective.
 
+#Methods
+
+I will create a different data set for each sub population. then I will use my helper file cat~cat to create a bar chart to display the data.  then after I will use xtabs to get the percentages for the data. Since only two types are being tested, there is no need for any loop to measure multiple variables. 
 ## Males
 
 
