@@ -106,7 +106,14 @@ The Chi-squared p-value is 0.002732 and the p-value is small, meaning the vaccin
 
 ## LGBTQ
 
+###Graphical Results
 
+```{r}
+barchartGC(~infected + treatment,data=lgbtq)
+barchartGC(~infected + treatment,data=lgbtq, type="percent")
+```
+
+Based on the graph, the individuals who received the vaccine and had covid-19 ad a 80% compared to a 20% placebo difference. There wasn't a apparent varriance with those who received the vaccine and were OK. 
 
 ## Druggies
 
