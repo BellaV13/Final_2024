@@ -37,7 +37,18 @@ $H_A$ : There are statistically significant difference in the data, meaning the 
 #Methods
 
 I will create a different data set for each sub population. then I will use my helper file cat~cat to create a bar chart to display the data.  then after I will use xtabs to get the percentages for the data. Since only two types are being tested, there is no need for any loop to measure multiple variables. 
+
 ## Males
+
+### Graphical Results 
+
+```{r}
+barchartGC(~infected + treatment,data=male)
+barchartGC(~infected + treatment,data=male, type="percent")
+```
+
+Based on the graph, there was a difference of 30% in covid-19 and a 70% with the placebo within the people who received the vaccination and the ones who got Covid-19. There was a slight difference with those who got the the vaccination an were "ok."
+
 
 
 ## Females
