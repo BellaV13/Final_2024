@@ -145,7 +145,7 @@ barchartGC(~infected + treatment,data=drugUser)
 barchartGC(~infected + treatment,data=drugUser, type="percent")
 ```
 
-The graph shows those who had covid-19. The druggies who did get the vaccine showed no difference. The druggies who took the placebo with a 12% chance of not being infected and a 88% chance for the druggies. The people that were OK and took the vaccine showed no significant difference. 
+The graph shows those who had covid-19. The druggies who did get the vaccine showed no difference between the 88% with covid-19and about a 10% chance with the placebo.
 
 ###Numercial Results
 
@@ -155,7 +155,7 @@ rowPerc(tableDrug)
 colPerc(tableDrug)
 ```
 
-
+The table shows that the druggies who took the vaccine and got covid-19 showed a difference. The druggies that took the placebo had a 12% chance of not being sick and the druggies had a 88%. those that were OK and took the vaccine showed no significant difference. 
 
 
 
