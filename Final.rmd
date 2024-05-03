@@ -125,6 +125,16 @@ colPerc(tableLGBTQ)
 
 On the table is shows a 40% difference in individuals who got covid-19 and got the vaccine. It shows about 80% of those who received the placebo had a 20% chance of not getting sick. There wasn't a discernible difference with those who received the vaccine and were OK. 
 
+###Inferential Results 
+
+```{r}
+chisq.test(tableLGBTQ)
+chisqtestGC(tableLGBTQ)
+lgbtqFisher <- fisher.test(tableLGBTQ)
+lgbtqFisher
+```
+
+The Chi-Squared value is 0.00000006668 and its too small. So that shows the vaccine is not effective in preventing the spread of covid-19 in the LGBTQ. With the Fisher's Exact test the p-value is 0.00000001029. Meaning I fail to reject the null hypothesis. by taking the vaccine or placebo you will still have the same odds in getting covid-19.
 
 ## Druggies
 
