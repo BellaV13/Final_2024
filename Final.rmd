@@ -82,6 +82,16 @@ barchartGC(~infected + treatment,data=female, type="percent")
 
 According to the graph, those who received covid-19 showed a difference between 40% and the placebo showing a 60% in those who took the vaccine. The Females who received the vaccine adn were OK didn't show any noticeable difference. 
 
+### Numerical Results 
+
+```{r}
+tableFemale <- xtabs(~infected + treatment, data=female)
+rowPerc(tableFemale)
+colPerc(tableFemale)
+```
+
+The table shows that there is a 20% difference in the vaccine rates with those who receive the coivd-19 vaccine. And the females who received the vaccine was 40% and 60% for the placebo. there is no difference with those received he vaccine. 
+
 ## LGBTQ
 
 
