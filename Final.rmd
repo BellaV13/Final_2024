@@ -138,5 +138,21 @@ The Chi-Squared value is 0.00000006668 and its too small. So that shows the vacc
 
 ## Druggies
 
+###Graphical Results 
+
+```{r}
+barchartGC(~infected + treatment,data=drugUser)
+barchartGC(~infected + treatment,data=drugUser, type="percent")
+```
+
+The graph shows those who had covid-19. The druggies who did get the vaccine showed no difference. The druggies who took the placebo with a 12% chance of not being infected and a 88% chance for the druggies. The people that were OK and took the vaccine showed no significant difference. 
+
+
+
+
+
+
+
+
 
 # Overall Results and Conclusions
