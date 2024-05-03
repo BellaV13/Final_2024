@@ -49,6 +49,16 @@ barchartGC(~infected + treatment,data=male, type="percent")
 
 Based on the graph, there was a difference of 30% in covid-19 and a 70% with the placebo within the people who received the vaccination and the ones who got Covid-19. There was a slight difference with those who got the the vaccination an were "ok."
 
+### Numerical Results
+
+```{r}
+tableMale <- xtabs(~infected + treatment, data=male)
+rowPerc(tableMale)
+colPerc(tableMale)
+```
+
+The table shows that there was x2 time difference with those who received the vaccine and still got covid-19. 70% of the ones who took the placebo did not get the virus,compared to the 30$ who got the vaccine. There was no noticeable distinction in those who got the vaccine and were okay. Its effective on males in this group. 
+
 
 
 ## Females
