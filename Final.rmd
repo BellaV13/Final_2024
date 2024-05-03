@@ -169,5 +169,9 @@ drugFisher
 The Chi-squared p-value is 0.000000002842 is small. so the vaccine is not effective in preventing covid-19 from spreading among other people. With the Fisher's exact test the p-value is 0.000000000232. Meaning I fail to reject the null hypothesis. With all the tests ran is shows that the vaccine does not prevent covid-19. 
 
 
-
 # Overall Results and Conclusions
+
+I wanted to figure out is Covid-19 was prevented in the male group. I came to the conclusion that the vaccine is ineffective in protecting males against covid-19. I fail to reject the null hypothesis for the male group. I also fail to reject the null hypothesis as the vaccine was also ineffective in the female group. the results of the research shows that the vaccination did not succeed in preventing covid-19, and with LGBTQ in the tests as well, I fail to reject the null hypothesis once again. Sam with the drug users as well there was no vaccine prevention on covid-19 so I reject the null hypothesis.  
+
+
+
